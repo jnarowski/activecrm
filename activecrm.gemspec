@@ -22,7 +22,9 @@ Gem::Specification.new do |s|
   s.rdoc_options << '--title' << 'ActiveCRM wrapper' <<
                        '--main' << 'README.rdoc'
 
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  # specify any dependencies here
+  s.add_development_dependency "rake", ">= 0.8.7"
+  s.add_development_dependency "rspec", "1.3.1"
+  s.add_development_dependency "vcr"
+  s.add_development_dependency "webmock"
 end

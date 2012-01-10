@@ -1,3 +1,3 @@
-module Activecrm
+module ActiveCRM
   VERSION = "0.0.1"
 end
